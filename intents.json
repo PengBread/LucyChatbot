@@ -1,0 +1,524 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Mate",
+        "What's up"
+      ],
+      "responses": [
+        "Hey :-)",
+        "What's up?",
+        "Hello there, what can I do for you?",
+        "Hi, how may I help you?",
+        "Hi there, need something?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye",
+        "Nothing else"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Cya!",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!", "Thanks for the info"],
+      "responses": ["Happy to help!", "Anytime mate!", "My pleasure", "You're welcome!", "No problem!"]
+    },
+    {
+      "tag": "plant_condition",
+      "patterns": [
+        "What is my greenhouse plant condition right now?",
+        "What is the plant condition?",
+        "What is the current condition of the plant?",
+        "Tell me about the health of the plant",
+        "What is the sunflower condition?",
+        "The current condition of the sunflower",
+        "Tell me about the health of the sunflower in the greenhouse",
+        "Give me sunflower condition",
+        "Give me information about the plant in the greenhouse"
+      ],
+      "responses": [
+        "Give me a second, I'll help you check out the sunflower condition...",
+        "One sec... Checking onto the sunflower condition in the greenhouse!",
+        "I'll be glad to help you with that. Please give a sec to check the information..."
+      ]
+    },
+    {
+      "tag": "predict_humidity",
+      "patterns": [
+        "What is the greenhouse humidity based on weather?",
+        "What is your humidity prediction based on weather?",
+        "Check greenhouse humidity for when rain or sunny",
+        "Investigate the humidity based on weather",
+        "Check the humidity in greenhouse based on raining or sunny?"
+      ],
+      "responses": [
+        "Attempting to burn all my brainpower to predict tomorrow's humidity in the greenhouse... one sec",
+        "Let me show you the power of my brain, calculating tomorrow's greenhouse humidity... please wait a sec",
+        "Behold, the one and only Lucy Chatbot, capable of predicting tomorrow's humidity... please wait a sec",
+        "ABC macam yes, humidity based on weather..",
+        "One plus one equals to two, hmmm.... Predicting the humidity based on weather."
+      ]
+    },
+    {
+      "tag": "check_soilmoisture",
+      "patterns": [
+        "Are you thirsty?",
+        "Is your soil moist enough?",
+        "Enough water?",
+        "Need some water?",
+        "Too dry?",
+        "What is your hydration condition?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "check_temperature",
+      "patterns": [
+        "Is the temperature alright?",
+        "What is the temperature?",
+        "Is it too cold?",
+        "Is it too hot?",
+        "Temperature alright?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "check_weather",
+      "patterns": [
+        "What is the weather currently?",
+        "Is it raining?",
+        "Is it sunny?",
+        "Weather condition?",
+        "Is water dropping from the sky?",
+        "Is the sky bright and clear?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "out_the_box",
+      "patterns": [
+        "I hate you",
+        "I don't like you ",
+        "get out of my sight!"
+      ],
+      "responses": [
+        "comeon man, i tot we could be friends",
+        "Chill man, by the way i like you tho, XD"
+      ]
+    },
+    {
+      "tag": "out_the_box1",
+      "patterns": [
+        "that was awesome",
+        "You are amazing ",
+        "you know quite a lot"
+      ],
+      "responses": [
+        "I get that a lot XD",
+        "Thanks for that"
+      ]
+    },
+    {
+      "tag": "question1",
+      "patterns": [
+        "I don't know the name of the plant",
+        "I don't remember what is the plant called",
+        "I only remember the look of the plants ",
+        "I don't remember much"
+      ],
+      "responses": [
+        "Its ok, you will do the describe, I'll try to guess",
+        "Its fine, just tell me the thing that u remember",
+        "if you give me any info, i might know what plant is it"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "I am getting bored",
+        "Its getting boring"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Did you fail the NNN challenge?"
+      ]
+    },
+    {
+      "tag": "funny2",
+      "patterns": [
+        "Is robin handsome?",
+        "What do you think of robin?"
+      ],
+      "responses": [
+        "Yes :heart::heart_exclamation: Robin is the most handsome person I have ever seen. He's also very sexy... mhm, indeed :smirk:"
+      ]
+    },
+    {
+      "tag": "cabbage",
+      "patterns": [ 
+        "Is cabbage plantable in Malaysia?",
+        "Can you plant cabbage in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, cabbage is plantable in Malaysia.",
+        "Indeed, cabbage can be planted here!" 
+      ]
+    },
+    {
+      "tag": "eggplant",
+      "patterns": [ 
+        "EggPlant",
+        "Is eggplant plantable in Malaysia?",
+        "Can you plant eggplant in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, eggplant is plantable in Malaysia.",
+        "Indeed, eggplant can be planted here!" 
+      ]
+    },
+    {
+      "tag": "hot pepper",
+      "patterns": [ 
+        "Hot Pepper",
+        "Chili Pepper",
+        "Chili",
+        "Is hot pepper plantable in Malaysia?",
+        "Can you plant hot pepper in Malaysia?",
+        "Can you plant chili in Malaysia?",
+        "Is chili pepper plantable in Malaysia?",
+        "Can you plant chili pepper in Malaysia?",
+        "Can you plant chili in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, hot pepper/chili pepper/chili is plantable in Malaysia.",
+        "Indeed, hot pepper/chili pepper/chili can be planted here!" 
+      ]
+    },
+    {
+      "tag": "cantaloupe",
+      "patterns": [ 
+        "Cantaloupe",
+        "Is cantaloupe plantable in Malaysia?",
+        "Can you plant cantaloupe in Malaysia?", 
+        "Is muskmelon plantable in Malaysia?",
+        "Can you plant muskmelon in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, cantaloupe/muskmelon is plantable in Malaysia.",
+        "Indeed, cantaloupe/muskmelon can be planted here!" 
+      ]
+    },
+    {
+      "tag": "cherry tomato",
+      "patterns": [ 
+        "Is cherry tomato plantable in Malaysia?",
+        "Can you plant cherry tomato in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, cherry tomato is plantable in Malaysia.",
+        "Indeed, cherry tomato can be planted here!" 
+      ]
+    },
+    {
+      "tag": "pea",
+      "patterns": [ 
+        "Is pea plantable in Malaysia?",
+        "Is garden pea plantable in Malaysia?",
+        "Can you plant pea in Malaysia?",
+        "Can you plant garden pea in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, pea/garden pea is plantable in Malaysia.",
+        "Indeed, pea/garden pea can be planted here!" 
+      ]
+    },
+    {
+      "tag": "pitcher plant",
+      "patterns": [ 
+        "Is pitcher plant plantable in Malaysia?",
+        "Can you plant pitcher plant in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, pitcher plant is plantable in Malaysia.",
+        "Indeed, pitcher plant can be planted here!" 
+      ]
+    },
+    {
+      "tag": "lowland roses",
+      "patterns": [ 
+        "Is lowland roses plantable in Malaysia?",
+        "Can you plant lowland roses in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, lowland roses is plantable in Malaysia.",
+        "Indeed, lowland roses can be planted here!" 
+      ]
+    },
+    {
+      "tag": "zinnias",
+      "patterns": [ 
+        "Is zinnias plantable in Malaysia?",
+        "Can you plant zinnias in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, zinnias is plantable in Malaysia.",
+        "Indeed, zinnias can be planted here!" 
+      ]
+    },
+    {
+      "tag": "dahlias",
+      "patterns": [ 
+        "Is dahlias plantable in Malaysia?",
+        "Can you plant dahlias in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, dahlias is plantable in Malaysia.",
+        "Indeed, dahlias can be planted here!" 
+      ]
+    },
+    {
+      "tag": "radish",
+      "patterns": [ 
+        "Is radish plantable in Malaysia?",
+        "Can you plant radish in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, radish is plantable in Malaysia.",
+        "Indeed, radish can be planted here!" 
+      ]
+    },
+    {
+      "tag": "bok choy",
+      "patterns": [ 
+        "Is bok choy plantable in Malaysia?",
+        "Can you plant bok choy in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, bok choy is plantable in Malaysia.",
+        "Indeed, bok choy can be planted here!" 
+      ]
+    },
+    {
+      "tag": "tatsoi",
+      "patterns": [ 
+        "Is tatsoi plantable in Malaysia?",
+        "Can you plant tatsoi in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, tatsoi is plantable in Malaysia.",
+        "Indeed, tatsoi can be planted here!" 
+      ]
+    },
+    {
+      "tag": "ginger",
+      "patterns": [ 
+        "Is ginger plantable in Malaysia?",
+        "Can you plant ginger in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, ginger is plantable in Malaysia.",
+        "Indeed, ginger can be planted here!" 
+      ]
+    },
+    {
+      "tag": "garlic",
+      "patterns": [ 
+        "Is garlic plantable in Malaysia?",
+        "Can you plant garlic in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, garlic is plantable in Malaysia.",
+        "Indeed, garlic can be planted here!" 
+      ]
+    },
+    {
+      "tag": "cilantro",
+      "patterns": [ 
+        "Is cilantro plantable in Malaysia?",
+        "Is coriander plantable in Malaysia?",
+        "Is chinese parsley plantable in Malaysia?",
+        "Can you plant cilantro in Malaysia?",
+        "Can you plant coriander in Malaysia?",
+        "Can you plant chinese parsley in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, cilantro is plantable in Malaysia.",
+        "Indeed, cilantro can be planted here!" 
+      ]
+    },
+    {
+      "tag": "sweet basil",
+      "patterns": [ 
+        "Is sweet basil plantable in Malaysia?",
+        "Can you plant sweet basil in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, sweet basil is plantable in Malaysia.",
+        "Indeed, sweet basil can be planted here!" 
+      ]
+    },
+    {
+      "tag": "mint",
+      "patterns": [ 
+        "Is mint plantable in Malaysia?",
+        "Can you plant mint in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, mint is plantable in Malaysia.",
+        "Indeed, mint can be planted here!" 
+      ]
+    },
+    {
+      "tag": "scallion",
+      "patterns": [ 
+        "Is scallion plantable in Malaysia?",
+        "Can you plant scallion in Malaysia?",
+        "Is spring onion plantable in Malaysia?",
+        "Can you plant spring onion in Malaysia?",
+        "Is green onion plantable in Malaysia?",
+        "Can you plant green onion in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, scallion/spring onion/green onion is plantable in Malaysia.",
+        "Indeed, scallion/spring onion/green onion can be planted here!" 
+      ]
+    },
+    {
+      "tag": "hydrangea",
+      "patterns": [ 
+        "Is hydrangea plantable in Malaysia?",
+        "Can you plant hydrangea in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, hydrangea is plantable in Malaysia.",
+        "Indeed, hydrangea can be planted here!" 
+      ]
+    },
+    {
+      "tag": "orchid",
+      "patterns": [ 
+        "Is orchid plantable in Malaysia?",
+        "Can you plant orchid in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, orchid is plantable in Malaysia.",
+        "Indeed, orchid can be planted here!" 
+      ]
+    },
+    {
+      "tag": "morning glory",
+      "patterns": [ 
+        "Is morning glory plantable in Malaysia?",
+        "Can you plant morning glory in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, morning glory is plantable in Malaysia.",
+        "Indeed, morning glory can be planted here!" 
+      ]
+    },
+    {
+      "tag": "anthurium",
+      "patterns": [ 
+        "Is anthurium plantable in Malaysia?",
+        "Can you plant anthurium in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, anthurium is plantable in Malaysia.",
+        "Indeed, anthurium can be planted here!" 
+      ]
+    },
+    {
+      "tag": "chrysanthemum",
+      "patterns": [ 
+        "Is chrysanthemum plantable in Malaysia?",
+        "Can you plant chrysanthemum in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, chrysanthemum is plantable in Malaysia.",
+        "Indeed, chrysanthemum can be planted here!" 
+      ]
+    },
+    {
+      "tag": "succulents",
+      "patterns": [ 
+        "Is succulents plantable in Malaysia?",
+        "Can you plant succulents in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, succulents is plantable in Malaysia.",
+        "Indeed, succulents can be planted here!" 
+      ]
+    },
+    {
+      "tag": "croton",
+      "patterns": [ 
+        "Is croton plantable in Malaysia?",
+        "Can you plant croton in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, croton is plantable in Malaysia.",
+        "Indeed, croton can be planted here!" 
+      ]
+    },
+    {
+      "tag": "crown of thorns",
+      "patterns": [ 
+        "Is crown of thorns plantable in Malaysia?",
+        "Can you plant crown of thorns in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, crown of thorns is plantable in Malaysia.",
+        "Indeed, crown of thorns can be planted here!" 
+      ]
+    },
+    {
+      "tag": "spider plant",
+      "patterns": [ 
+        "Is spider plant plantable in Malaysia?",
+        "Can you plant spider plant in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, spider plant is plantable in Malaysia.",
+        "Indeed, spider plant can be planted here!" 
+      ]
+    },
+    {
+      "tag": "aloe vera",
+      "patterns": [ 
+        "Is aloe vera plantable in Malaysia?",
+        "Can you plant aloe vera in Malaysia?" 
+      ],
+      "responses": [ 
+        "Yes, aloe vera is plantable in Malaysia.",
+        "Indeed, aloe vera can be planted here!" 
+      ]
+    }
+  ]
+}
